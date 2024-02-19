@@ -17,6 +17,7 @@ jobs:
 
     - name: Install and Build
       run: |
+        cd my-website
         npm install
         npm run build
 
