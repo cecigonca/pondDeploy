@@ -4,36 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Conteúdo da Página',
+    Svg: require('@site/static/img/whale-svgrepo-com.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Minha página pessoal conta com informações pessoais básicas e meu histórico acadêmico. Esses itens foram dividos em duas páginas diferentes na aba "Meu Perfil".
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Descrição da Atividade',
+    Svg: require('@site/static/img/jellyfish-svgrepo-com.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       Construir um deploy automatizado utilizando o Github Actions para entregar uma página pessoal construída com o Docusaurus. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Avaliação',
+    Svg: require('@site/static/img/polar-bear-svgrepo-com.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Espera-se encontrar um commit para cada etapa principal do projeto, tais como: instalação dos pacotes, construção da página pessoal e ajustes na página pessoal.
       </>
     ),
   },
 ];
+
 
 function Feature({Svg, title, description}) {
   return (

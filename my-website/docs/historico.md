@@ -25,3 +25,5 @@ Abr 2023 - Jun 2023
 
 **Jogo Digital, UFAL**
 Fev 2023 - Abr 2023
+
+![Escada Inteli](/img/escadaInteli.jpg)
