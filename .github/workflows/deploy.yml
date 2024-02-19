@@ -24,6 +24,6 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
-        branch: gh-pages  # O branch no GitHub onde o site será hospedado
+        branch: main  # O branch no GitHub onde o site será hospedado
         folder: build  # O diretório gerado pelo comando build do Docusaurus
         token: ${{ secrets.GITHUB_TOKEN }}  # Token para autorizar o deploy
